@@ -1,4 +1,3 @@
-# ![logo](https://blasterphp.blaster.org.uk/public/storge/logo.png)
 # CLI-Based-application-generate-write-in-Csv-file 
 ## How to install 
 ```
@@ -7,6 +6,10 @@ composer require lib/generate-csv-cli
 or 
 ```
 git clone https://github.com/umarelmahedi/generate-csv-cli.git
+```
+```
+cd generate-csv-cli
+composer install
 ```
 
 ## How to use
