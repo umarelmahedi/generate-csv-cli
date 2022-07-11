@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib\App\Http\Controllers;
+namespace Pay\Cli\App\Http\Controllers;
 
 /**
  *** PaymentController

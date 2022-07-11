@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib\App\Helpers;
+namespace Pay\Cli\App\Helpers;
 
 use DateTime;
 

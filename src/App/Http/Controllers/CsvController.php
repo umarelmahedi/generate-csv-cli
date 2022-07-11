@@ -1,8 +1,8 @@
 <?php
 
-namespace Lib\App\Http\Controllers;
+namespace Pay\Cli\App\Http\Controllers;
 
-use Lib\App\Http\Controllers\PaymentController;
+use Pay\Cli\App\Http\Controllers\PaymentController;
 
 class CsvController extends Controller
 {    

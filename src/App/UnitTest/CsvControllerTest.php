@@ -1,9 +1,9 @@
 <?php
 
-namespace Lib\App\UnitTest;
+namespace Pay\Cli\App\UnitTest;
 
 use PHPUnit\Framework\TestCase;
-use Lib\App\Http\Controllers\CsvController;
+use Pay\Cli\App\Http\Controllers\CsvController;
 
 class CsvControllerTest extends TestCase
 {

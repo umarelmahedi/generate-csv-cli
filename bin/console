@@ -2,12 +2,12 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Lib\App\Commands\CreateFileCommand;
-use Lib\App\Commands\EraseFileCommand;
-use Lib\App\Commands\SelectYearCommand;
-use Lib\App\Commands\CurrentYearCommand;
-use Lib\App\Commands\SelectMonthCommand;
-use Lib\App\Commands\CurrentMonthCommand;
+use Pay\Cli\App\Commands\CreateFileCommand;
+use Pay\Cli\App\Commands\EraseFileCommand;
+use Pay\Cli\App\Commands\SelectYearCommand;
+use Pay\Cli\App\Commands\CurrentYearCommand;
+use Pay\Cli\App\Commands\SelectMonthCommand;
+use Pay\Cli\App\Commands\CurrentMonthCommand;
 use Symfony\Component\Console\Application;
 
 $app = new Application();

@@ -1,8 +1,8 @@
 <?php
 
-namespace Lib\App\Commands;
+namespace Pay\Cli\App\Commands;
 
-use Lib\App\Helpers\SystemHelper;
+use Pay\Cli\App\Helpers\SystemHelper;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

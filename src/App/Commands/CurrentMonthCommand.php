@@ -1,9 +1,9 @@
 <?php
 
-namespace Lib\App\Commands;
+namespace Pay\Cli\App\Commands;
 
-use Lib\App\Helpers\SystemHelper;
-use Lib\App\Http\Controllers\CsvController;
+use Pay\Cli\App\Helpers\SystemHelper;
+use Pay\Cli\App\Http\Controllers\CsvController;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

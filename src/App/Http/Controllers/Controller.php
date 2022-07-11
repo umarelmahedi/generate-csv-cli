@@ -1,9 +1,9 @@
 <?php
 
-namespace Lib\App\Http\Controllers;
+namespace Pay\Cli\App\Http\Controllers;
 
 use DateTime;
-use Lib\App\Helpers\SystemHelper;
+use Pay\Cli\App\Helpers\SystemHelper;
 
 class Controller extends SystemHelper
 {

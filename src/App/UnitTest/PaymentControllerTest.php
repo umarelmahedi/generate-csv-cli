@@ -1,9 +1,9 @@
 <?php
 
-namespace Lib\App\UnitTest;
+namespace Pay\Cli\App\UnitTest;
 
 use PHPUnit\Framework\TestCase;
-use Lib\App\Http\Controllers\PaymentController;
+use Pay\Cli\App\Http\Controllers\PaymentController;
  
 class PaymentControllerTest extends TestCase
 {    
