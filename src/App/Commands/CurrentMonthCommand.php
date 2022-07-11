@@ -26,8 +26,8 @@ class CurrentMonthCommand extends Command
         $month = $systemHelper->getCurrentMonth();
         $year = $systemHelper->getCurrentYear();
 
-        $messageZero = sprintf("===============================================================================================================");
-        $messageOne = sprintf("========================================= Payments For The current Month ======================================\n");
+        $messageZero = sprintf("=====================================================================================================================================");
+        $messageOne = sprintf("==================================================== Payments For The current Month =================================================\n");
         $messageTwo = sprintf("Payments And Holidays Summary");
         $confirmation = sprintf("Payment.csv File Has Been Updated Successfully!!\nBasic Payment Has Been Updated Successfully!!\nBonus Payment Has Been Updated Successfully!!");
 

@@ -26,8 +26,8 @@ class CurrentYearCommand extends Command
         $systemHelper = new SystemHelper();
         $year = $systemHelper->getCurrentYear();
 
-        $messageZero = sprintf("================================================================================================================");
-        $messageOne = sprintf("========================================= Payments For The current Year ========================================\n");
+        $messageZero = sprintf("=====================================================================================================================================");
+        $messageOne = sprintf("==================================================== Payments For The current Year ==================================================\n");
         $messageTwo = sprintf("Payments And Holidays Summary");
         $confirmation = sprintf("Payment.csv File Has Been Updated Successfully!!\nBasic Payment Has Been Updated Successfully!!\nBonus Payment Has Been Updated Successfully!!");
 

@@ -25,8 +25,8 @@ class CreateFileCommand extends Command
         $systemHelper->createFile();
         $systemHelper->handleWarnings();
 
-        $messageZero = sprintf("===================================================================================================");
-        $messageOne = sprintf("===================================== Payments System =============================================\n");
+        $messageZero = sprintf("=================================================================================================================");
+        $messageOne = sprintf("============================================== Payments Application =============================================\n");
         $messageTwo = sprintf("Commands You Maye Want To Use:");
         $confirmation = sprintf("Payment.csv File Has Been Created Successfully!!\n");
 

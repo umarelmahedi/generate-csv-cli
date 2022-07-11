@@ -29,9 +29,8 @@ class SelectYearCommand extends Command
         $year = $helper->ask($input, $output, $question);
         $systemHelper = new SystemHelper();
 
-
-        $messageZero = sprintf("=================================================================================================================");
-        $messageOne = sprintf("============================================ Payments For The Year " . $year . " =========================================\n");
+        $messageZero = sprintf("======================================================================================================================================");
+        $messageOne = sprintf("====================================================== Payments For The Year " . $year . " ====================================================\n");
         $messageTwo = sprintf("Payments And Holidays Summary");
         $confirmation = sprintf("Payment.csv File Has Been Updated Successfully!!\nBasic Payment Has Been Updated Successfully!!\nBonus Payment Has Been Updated Successfully!!");
 

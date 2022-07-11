@@ -30,8 +30,8 @@ class SelectMonthCommand extends Command
 
         $systemHelper = new SystemHelper();
 
-        $messageZero = sprintf("===============================================================================================================");
-        $messageOne = sprintf("========================================= Payments For The Month " . $systemHelper->monthName($month) . " ========================================\n");
+        $messageZero = sprintf("=====================================================================================================================================");
+        $messageOne = sprintf("=================================================== Payments For The Month " . $systemHelper->monthName($month) . " ===================================================\n");
         $messageTwo = sprintf("Payments And Holidays Summary");
         $confirmation = sprintf("Payment.csv File Has Been Updated Successfully!!\nBasic Payment Has Been Updated Successfully!!\nBonus Payment Has Been Updated Successfully!!");
 
