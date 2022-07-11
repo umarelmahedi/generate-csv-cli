@@ -1,17 +1,19 @@
 {
   "name": "lib/generate-csv-cli",
-  "require": {
-    "symfony/console": "^6.0"
-  },
-  "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    },
-  "author": [
+  "description": "PHP application that will create a CSV file detailing the dates for the next 12 months when Basic Salary and Salary Bonus are paid",
+    "author": [
     {
       "name": "umarelmahedi",
       "email": "umar.elmahedi@gmail.com"
     }
   ],
+  "require": {
+    "php": ">=7.3.0",
+    "symfony/console": "^6.0"
+  },
+  "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
   "autoload": {
     "psr-4": {
       "Lib\\": "src"
