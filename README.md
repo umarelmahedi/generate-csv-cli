@@ -1,9 +1,10 @@
 # CLI-Based-application-generate-write-in-Csv-file 
 ## How to install 
+require as a library
 ```
 composer require paycli/generate-csv-cli
 ```
-or 
+clone the application
 ```
 git clone https://github.com/umarelmahedi/generate-csv-cli.git
 ```
