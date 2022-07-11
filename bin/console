@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Lib\App\Commands\CreateFileCommand;
+use Lib\App\Commands\EraseFileCommand;
+use Lib\App\Commands\SelectYearCommand;
+use Lib\App\Commands\CurrentYearCommand;
+use Lib\App\Commands\SelectMonthCommand;
+use Lib\App\Commands\CurrentMonthCommand;
+use Symfony\Component\Console\Application;
+
+$app = new Application();
+$app->add(new CreateFileCommand());
+$app->add(new EraseFileCommand());
+$app->add(new SelectYearCommand());
+$app->add(new SelectMonthCommand());
+$app->add(new CurrentYearCommand());
+$app->add(new CurrentMonthCommand());
+$app->run();
