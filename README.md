@@ -7,6 +7,10 @@ or
 ```
 git clone https://github.com/umarelmahedi/generate-csv-cli.git
 ```
+```
+cd generate-csv-cli
+composer install
+```
 
 ## How to use
 ```
