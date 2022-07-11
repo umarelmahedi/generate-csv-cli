@@ -50,7 +50,7 @@ class Controller extends SystemHelper
     /**
      * isYear
      * return true for valid input
-     * return error for string input
+     * return error msg for string input
      * @param  mixed @year
      * @return true
      */
@@ -75,7 +75,7 @@ class Controller extends SystemHelper
     /**
      * isMonth
      * return true for number input
-     * return error for string input
+     * return error msg for string input
      * @param  mixed @month
      * @return true
      */

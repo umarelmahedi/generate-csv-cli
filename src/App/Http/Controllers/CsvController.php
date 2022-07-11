@@ -23,7 +23,7 @@ class CsvController extends Controller
     
     /**
      * writeToCsv
-     * Generate or update payments.csv file
+     * Generate or update the payments.csv file
      * @param  mixed $month
      * @param  mixed $year
      * @return true
@@ -47,8 +47,9 @@ class CsvController extends Controller
 
     /**
      * currentYear
-     * update the payments file for the current year
-     * reschedule any payments that will be on holiday     
+     * update the payments.csv file for the current year
+     * reschedule any payments that will be on holiday to
+     * the next working day     
      * @param  mixed $year
      * @return true
      */
@@ -66,6 +67,7 @@ class CsvController extends Controller
      * currentMonth
      * update the payments file for the current month
      * reschedule any payments that will be on holiday
+     * to the next working day
      * @param  mixed $year
      * @return true
      */
@@ -82,6 +84,7 @@ class CsvController extends Controller
      * selectedMonth
      * update the payments file for the given year
      * reschedule any payments that will be on holiday
+     * to the next working day
      * @param  mixed $month
      * @return true
      */
@@ -100,6 +103,7 @@ class CsvController extends Controller
      * selectedMonth
      * update the payments file for the given month
      * reschedule any payments that will be on holiday
+     * to the next working day
      * @param  mixed $month
      * @return true
      */

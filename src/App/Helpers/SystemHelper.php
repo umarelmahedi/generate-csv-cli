@@ -98,11 +98,9 @@ class SystemHelper extends CommandHelper
     public function fileExists(){
         $file = file_exists("./DB/payments.csv");
         if($file == true){
-            // print("Payments.csv file is exists\n");
             return $file;
         }else{
             $this->createFile();
-            // print("Payments.csv file has been created\n");
             return false;
         }
     }

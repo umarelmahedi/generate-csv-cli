@@ -25,6 +25,7 @@ class PaymentControllerTest extends TestCase
 
     /**
      * testMonthlyPay
+     * return the montly basic payment day
      * @return Basic-Payment
      */
     public function testMonthlyPay(){
@@ -33,6 +34,7 @@ class PaymentControllerTest extends TestCase
 
     /**
      * testMonthlyBonus
+     * return the montly bouns payment day
      * @return Monthly-Bonus
      */
     public function testMonthlyBonus()
