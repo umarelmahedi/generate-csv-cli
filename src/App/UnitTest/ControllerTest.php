@@ -19,35 +19,58 @@ class ControllerTest extends TestCase
         unset($this->testController);
     }
 
+    /**
+     * testGetDayName
+     * test for testGetDayName method
+     * @return string
+     */
     public function testGetDayName()
     {
         $this->assertEquals("Friday", $this->testController->getDayName(8, 07, 2022));
     }
 
+    /**
+     * testGetMonthName
+     * test for testGetMonthName method
+     * @return string
+     */
     public function testGetMonthName(){
         $this->assertEquals("August", $this->testController->getMonthName(8));
     }
 
+    /**
+     * testGetLastDay
+     * test for testGetLastDay method
+     * @return int
+     */
     public function testGetLastDay()
     {
         $this->assertEquals("31", $this->testController->getLastDay(07, 2022));
     }
 
+    /**
+     * testIsYear
+     * test for testIsYear method
+     * @return true
+     */
     public function testIsYear()
     {
         $this->assertTrue($this->testController->isYear(2022));
     }
 
+    /**
+     * testIsMonth
+     * test for testIsMonth method
+     * @return true
+     */
     public function testIsMonth()
     {
         $this->assertTrue($this->testController->isMonth(9));
     }
 
-
 /**
  * Testing SysyemHelper Methods *
  */
-
 
     /**
      * systemOutput

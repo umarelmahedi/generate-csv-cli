@@ -6,8 +6,12 @@ use PHPUnit\Framework\TestCase;
 use Lib\App\Http\Controllers\PaymentController;
  
 class PaymentControllerTest extends TestCase
-{
-    private $testPayment;
+{    
+    /**
+     * testPayment
+     * @var mixed
+     */
+    public $testPayment;
 
     public function setup(): void
     {
@@ -19,13 +23,20 @@ class PaymentControllerTest extends TestCase
         unset($this->testPayment);
     }
 
+    /**
+     * testMonthlyPay
+     * @return Basic-Payment
+     */
     public function testMonthlyPay(){
         $this->assertEquals(29, $this->testPayment->monthlyPay(7, 2022));
     }
 
+    /**
+     * testMonthlyBonus
+     * @return Monthly-Bonus
+     */
     public function testMonthlyBonus()
     {
         $this->assertEquals(12, $this->testPayment->monthlyBonus(9, 2022));
     }
-
 }

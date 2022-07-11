@@ -21,8 +21,7 @@ class CsvControllerTest extends TestCase
     
     /**
      * testWriteToCsv
-     *
-     * @return void
+     * @return true
      */
     public function testWriteToCsv(){
         $this->assertTrue(true, $this->testCsv->writeToCsv(07,2022));
@@ -30,8 +29,7 @@ class CsvControllerTest extends TestCase
     
     /**
      * testCurrentYear
-     *
-     * @return void
+     * @return true
      */
     public function testCurrentYear(){
         $this->assertTrue(true, $this->testCsv->currentYear(2022));
@@ -39,8 +37,7 @@ class CsvControllerTest extends TestCase
     
     /**
      * testCurrentMonth
-     *
-     * @return void
+     * @return true
      */
     public function testCurrentMonth(){
         $this->assertTrue(true, $this->testCsv->currentMonth(2022));
@@ -48,8 +45,7 @@ class CsvControllerTest extends TestCase
     
     /**
      * testSelectedYear
-     *
-     * @return void
+     * @return true
      */
     public function testSelectedYear(){
         $this->assertTrue(true, $this->testCsv->selectedYear(2022));
@@ -57,8 +53,7 @@ class CsvControllerTest extends TestCase
     
     /**
      * testSelectedMonth
-     *
-     * @return void
+     * @return true
      */
     public function testSelectedMonth(){
         $this->assertTrue(true, $this->testCsv->selectedMonth(7));

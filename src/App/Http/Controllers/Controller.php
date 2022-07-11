@@ -9,7 +9,7 @@ class Controller extends SystemHelper
 {
     /**
      * getDayName
-     * return day name as a string
+     * return the name of the day as string
      * @param  mixed @day
      * @param  mixed @month
      * @param  mixed @year
