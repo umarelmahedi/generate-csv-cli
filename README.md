@@ -1,7 +1,7 @@
 # CLI-Based-application-generate-write-in-Csv-file 
 ## How to install 
 ```
-composer require lib/generate-csv-cli
+composer require paycli/generate-csv-cli
 ```
 or 
 ```
