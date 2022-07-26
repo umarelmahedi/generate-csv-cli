@@ -1,6 +1,6 @@
 # Generate CSV file 
 
-application that will create a CSV file detailing the dates for the next 12 months when Basic Salary and Salary Bonus are paid knowing that:
+Application that will create a CSV file detailing the dates for the next 12 months when Basic Salary and Salary Bonus are paid knowing that:
 - Staff get their basic monthly pay on last working day of the month (MON-FRI).
 - On 10th of each month bonuses are paid, unless the 10th is Saturday or Sunday. In
   which case the bonus is paid on first working day after the 10th.
